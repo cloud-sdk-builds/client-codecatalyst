@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codecatalyst`](https://www.npmjs.com/package/@aws-sdk/client-codecatalyst/v/3.749.0).
+[`@aws-sdk/client-codecatalyst`](https://www.npmjs.com/package/@aws-sdk/client-codecatalyst/v/3.750.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.749.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.750.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1OgUU8XUBdpGx8JM2lxq0yBP8/nSQpO6Vgsnw67nnQ/rykLUQhWwlK9kwUtyqpJR
+sha384-zH1ymcy4lINfH9l44yG6Ul9MEt+IdQZCjgeKj5z9+ZmNidpLT2zCLr/2Vf5ATGPT
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codecatalyst": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.749.0/index.min.mjs"
+            "@aws-sdk/client-codecatalyst": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.750.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.749.0/index.min.mjs": "sha384-1OgUU8XUBdpGx8JM2lxq0yBP8/nSQpO6Vgsnw67nnQ/rykLUQhWwlK9kwUtyqpJR"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.750.0/index.min.mjs": "sha384-zH1ymcy4lINfH9l44yG6Ul9MEt+IdQZCjgeKj5z9+ZmNidpLT2zCLr/2Vf5ATGPT"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codecatalyst": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.749.0/index.min.mjs"
+                        "@aws-sdk/client-codecatalyst": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.750.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.749.0/index.min.mjs": "sha384-1OgUU8XUBdpGx8JM2lxq0yBP8/nSQpO6Vgsnw67nnQ/rykLUQhWwlK9kwUtyqpJR"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codecatalyst@3.750.0/index.min.mjs": "sha384-zH1ymcy4lINfH9l44yG6Ul9MEt+IdQZCjgeKj5z9+ZmNidpLT2zCLr/2Vf5ATGPT"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.749.0`)
+* Always pin to a specific version (`@3.750.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codecatalyst/blob/refs/tags/3.749.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codecatalyst/blob/refs/tags/3.750.0/LICENSE
 ```
 
 ---
